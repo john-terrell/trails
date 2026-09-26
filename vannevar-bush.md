@@ -6,8 +6,8 @@ created: 2026-09-26
 updated: 2026-09-26
 status: growing
 tags: [entity/person, pkm, history]
-confidence: medium
-sources: 1
+confidence: high
+sources: 3
 ---
 
 # Vannevar Bush
@@ -76,19 +76,24 @@ That is the gap an LLM fills, and it is a narrower and more interesting claim th
 
 ## Limits of this page
 
-Everything here comes from **one document**: the essay plus its editor's note. This wiki
-has no independent biographical source for Bush — no dates, no education, no other work,
-no account of his influence on Engelbart or Nelson. Those are deliberately absent rather
-than filled from memory, per AGENTS.md §3. Recorded in Open Questions.
+Everything here comes from **his own essay plus its editor's note**, corroborated by
+[Douglas Engelbart](douglas-engelbart.md)'s 1962 reading of it. This wiki has no independent biographical
+source — no dates, no education, no other work, and no account of his influence. Those are
+deliberately absent rather than filled from memory, per AGENTS.md §3.
 
-Confidence is `medium` for that reason: the primary text is solid, but a single
-self-published-in-a-magazine source is a thin basis for a person page.
+Confidence was raised `medium` → `high` on 2026-09-26 when
+[Augmenting Human Intellect: A Conceptual Framework](Sources.md) supplied a second witness for the text and an
+independent reading of his intent. That raises confidence **in what he wrote**, not in who
+he was — the biographical gap is unchanged and still recorded in Open Questions.
 
 ## Open questions
 
-- What was Bush's actual influence? [Trail blazers](trail-blazer.md), [Memex](memex.md), and
-  associative indexing are usually cited as precursors to hypertext — but this corpus
-  contains no source making or testing that claim.
+- What was Bush's actual influence? **Partly answered 2026-09-26:**
+  [Augmenting Human Intellect: A Conceptual Framework](Sources.md) documents one concrete link — Newell, Shaw
+  and Simon's list structures are *"linked serially in exactly the manner proposed by Bush
+  for the associative trails in his Memex"* — and Engelbart's whole §III.A is a close
+  reading. The rest of the chain (Engelbart → Nelson's hypertext → the web) is still
+  unsourced.
 - Did he ever return to these ideas after 1945? Not in this corpus.
 - Was the trail-blazer profession meant as a serious labor-market proposal or a
   rhetorical flourish? It gets one sentence.
@@ -96,14 +101,17 @@ self-published-in-a-magazine source is a thin basis for a person page.
 ## Sources
 
 - [As We May Think](Sources.md) — **primary**, his own text plus the editor's
-  biographical note (2026-09-26)
+  biographical note (2026-09-26); corrected against the witness below
+- [Augmenting Human Intellect: A Conceptual Framework](Sources.md) — **primary**, second witness; §III.A.1–2
+  summarizes and quotes him at length, then repositions the memex as *"a primitive example"*
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — secondhand; names him as the pattern's ancestor
-  and mischaracterizes his position on maintenance and privacy
+  and mischaracterizes his position on maintenance and privacy (C-001, C-002, both resolved)
 
-## See also
+## Relations
 
-- [Memex](memex.md) — the device
-- [Associative Indexing](associative-indexing.md) — the mechanism
-- [Trail Blazer](trail-blazer.md) — his answer to maintenance
-- [Repetitive vs Creative Thought](repetitive-vs-creative-thought.md) — his division of labor
-- [Personal Knowledge Management](personal-knowledge-management.md)
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)
+- **part-of** [Augmenting Human Intellect](augmenting-human-intellect.md)
+- **supports** [Memex](memex.md) — its author
+- **supports** [Associative Indexing](associative-indexing.md) — proposed the mechanism
+- **supports** [Trail Blazer](trail-blazer.md) — proposed the profession
+- **supports** [Repetitive vs Creative Thought](repetitive-vs-creative-thought.md) — drew the division of labor

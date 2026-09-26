@@ -53,8 +53,6 @@ consistent with the source's own "everything mentioned above is optional and mod
 
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — sole source; one line in "Tips and tricks"
 
-## See also
+## Relations
 
-- [Obsidian](obsidian.md) — plugin host
-- [Dataview](dataview.md) — the other optional output/query plugin
-- AGENTS — §8, answer output formats
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

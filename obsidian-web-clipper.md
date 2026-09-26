@@ -61,8 +61,7 @@ hold only clean, frozen files.
 
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — sole source; "Tips and tricks"
 
-## See also
+## Relations
 
-- [Obsidian](obsidian.md) — the host application
-- AGENTS — §4 step 1, the normalization rule
-- [LLM Wiki Pattern](llm-wiki-pattern.md)
+- **implements** [LLM Wiki Pattern](llm-wiki-pattern.md) — the ingest front door into raw/clippings/
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

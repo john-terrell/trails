@@ -7,7 +7,7 @@ updated: 2026-09-26
 status: growing
 tags: [concept/pkm, concept/information-retrieval, concept/history]
 confidence: high
-sources: 1
+sources: 2
 ---
 
 # Associative Indexing
@@ -99,6 +99,31 @@ It is also the strongest point of agreement between Bush and
 legitimate at the level of mechanism even where it misdescribes Bush's purpose. See
 [Memex](memex.md) §"Divergence".
 
+## The 1962 extension: trails are untyped, and that is a limitation
+
+[Douglas Engelbart](douglas-engelbart.md) called Bush's trails *"a beautiful example of a new capability in
+symbol structuring"* — and *"a primitive example"* of the general operation of defining a
+new substructure from an arbitrary collection of existing ones
+([Augmenting Human Intellect](Sources.md) §III.A.2, §III.B.5).
+
+Two specific extensions matter here:
+
+1. **Typed, directional links.** *"You can designate as many different kinds of links as you
+   wish, so that you can specify different display or manipulative treatment for the
+   different types"* (§III.B.4). His `antecedent` links answer *"How come?"* and reverse
+   into `consequent` links answering *"So what?"* — one typed graph, two traversals. Bush's
+   trails carry no type, so they can answer neither question mechanically.
+   → [Typed Links](typed-links.md), adopted by this vault as AGENTS §6.7.
+2. **Views, not just paths.** A trail is one fixed route. The general capability is
+   generating a projection on demand — *"extracting and ordering all statements in the local
+   text that bear upon Consideration A of the argument"* (§II.C.5.b.4). A topic hub is a
+   hand-built view; this vault has no generated ones.
+
+The lineage Engelbart supplies also closes a gap this wiki had flagged: Newell, Shaw and
+Simon's list structures are *"a string of substructures that are linked serially in exactly
+the manner proposed by Bush for the associative trails in his Memex."* Bush → list
+processing → Engelbart, sourced rather than asserted.
+
 ## Criticisms and limits
 
 - **Bush never addresses trail quality.** No staleness, no error, no conflicting trails.
@@ -122,12 +147,15 @@ legitimate at the level of mechanism even where it misdescribes Bush's purpose. 
 
 - [As We May Think](Sources.md) — primary; §6 states the objection to indexing, §7
   specifies the mechanism and gives the bow-and-arrow worked example
+- [Augmenting Human Intellect: A Conceptual Framework](Sources.md) — primary; §III.A.1–2 on Bush, §III.B.4–5 on
+  typed links and substructure definition, §II.C.5.b.4 on view generation. **§III.B is
+  fiction** (AGENTS §6.8) — its structural claims are echoed in §II, which is not.
 
-## See also
+## Relations
 
-- [Memex](memex.md) — the device this mechanism belongs to
-- [Trail Blazer](trail-blazer.md) — who builds trails, and who pays them
-- [Knowledge Compounding](knowledge-compounding.md) — what permanent trails enable
-- [Growing Mountain of Research](growing-mountain-of-research.md) — the problem being solved
-- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — the alternative answer to selection
-- [Obsidian](obsidian.md) — the tool implementing it here
+- **explains** [Knowledge Compounding](knowledge-compounding.md) — permanent many-to-many links are what accumulate
+- **contrasts** [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — Bush's §6 objection is to hierarchical filing specifically
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)
+- **part-of** [Augmenting Human Intellect](augmenting-human-intellect.md)
+- **generalizes** [Typed Links](typed-links.md) — the untyped ancestor of a typed relation graph
+- **implements** [Symbol Structuring](symbol-structuring.md) — trails as a symbol-structuring process

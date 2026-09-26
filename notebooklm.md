@@ -45,7 +45,7 @@ from memory. Per AGENTS.md §3, no unsourced claims.
 
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — sole source; one clause, used as a foil
 
-## See also
+## Relations
 
-- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — the approach it is cited as an instance of
-- [LLM Wiki Pattern](llm-wiki-pattern.md) — the contrast
+- **instance-of** [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — cited as an example of the approach
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

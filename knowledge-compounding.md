@@ -7,7 +7,7 @@ updated: 2026-09-26
 status: growing
 tags: [concept/pkm]
 confidence: medium
-sources: 2
+sources: 3
 ---
 
 # Knowledge Compounding
@@ -120,11 +120,8 @@ truth — it accumulates errors on the same terms as knowledge. See "Criticisms"
 - [As We May Think](Sources.md) — primary; §6–8 specify how permanence, inheritance,
   and composition produce compounding
 
-## See also
+## Relations
 
-- [Associative Indexing](associative-indexing.md) — the mechanism Bush specifies
-- [Trail Blazer](trail-blazer.md) — who builds the trails that compound
-- [LLM Wiki Pattern](llm-wiki-pattern.md) — the method that produces it
-- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — the approach said to lack it
-- [Maintenance Burden](maintenance-burden.md) — why humans fail to get it
-- [Memex](memex.md) — the ancestor that named trails as the valuable object
+- **supports** [LLM Wiki Pattern](llm-wiki-pattern.md) — the payoff the pattern claims
+- **contrasts** [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — RAG is said to lack accumulation entirely
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

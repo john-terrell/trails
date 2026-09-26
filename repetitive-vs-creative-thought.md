@@ -7,7 +7,7 @@ updated: 2026-09-26
 status: growing
 tags: [concept/pkm, concept/labor, concept/history]
 confidence: high
-sources: 1
+sources: 2
 ---
 
 # Repetitive vs Creative Thought
@@ -129,10 +129,8 @@ side, which is the side that produces no visible symptom.
 - [As We May Think](Sources.md) — primary; §3 introduces the distinction, §4 states it
   precisely, §5 generalizes it and limits it
 
-## See also
+## Relations
 
-- [Vannevar Bush](vannevar-bush.md) — the author
-- [LLM Wiki Pattern](llm-wiki-pattern.md) — the modern instance of the same division
-- [Maintenance Burden](maintenance-burden.md) — the work being delegated, and the economics of delegating it
-- [Growing Mountain of Research](growing-mountain-of-research.md) — the problem the delegation serves
-- AGENTS — §4 step 3 and §5, where this vault keeps selection human
+- **explains** [LLM Wiki Pattern](llm-wiki-pattern.md) — the same division of labor, 81 years earlier
+- **supports** [LLM Wiki Pattern](llm-wiki-pattern.md) — independent corroboration from a primary text
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

@@ -29,7 +29,7 @@ being re-derived from raw fragments at every query. The founding document is
 
 ## Current state
 
-**Corpus:** 2 sources · **Wiki:** 8 entities · 9 concepts · 1 topic · 0 answers
+**Corpus:** 3 sources · **Wiki:** 9 entities · 18 concepts · 2 topics · 0 answers
 **Health:** 0 lint findings · **Search:** [qmd](qmd.md) indexed, 2 collections
 **Conflicts:** 0 open · **2 resolved** (both ruled for the primary text, 2026-09-26) → Contradictions
 
@@ -42,15 +42,41 @@ do now.
 
 ## What the corpus is about
 
-One topic: [Personal Knowledge Management](personal-knowledge-management.md). Two sources, 81 years apart, that agree on
-mechanism and disagree on purpose.
+Two nested topics: [Augmenting Human Intellect](augmenting-human-intellect.md) (root) and
+[Personal Knowledge Management](personal-knowledge-management.md) (sub-hub). Three sources — two primary texts 17 years
+apart, and one anonymous secondary account that descends from both without knowing the
+second.
 
-**The mechanism, agreed.** Knowledge is stored once and connected many times, and the
-connections are the valuable artifact. Bush states it as engineering — *"The process of
-tying two items together is the important thing"* — and his objection to hierarchy is
-structural: filed in one place, an item forces you to *"emerge from the system and
-re-enter on a new path"* for every new thread. [Associative Indexing](associative-indexing.md) is what
-`wikilinks` implement.
+**The reframe, from Engelbart.** The unit of analysis is not the person or the tool but
+[H-LAM/T](h-lam-t.md) — *Human using Language, Artifacts, Methodology, in which he is Trained*.
+Effectiveness is a property of that system, so a vault that changes the artifact without
+changing the method changes little. That is why the schema file exists: it *is* the M.
+Intelligence on this account is **organization**, not substance ([Synergism](synergism.md)), and what
+gets amplified is the whole system rather than its human component
+([Intelligence Amplification](intelligence-amplification.md)).
+
+**The critique this vault has not answered.** Concept structures are multiply-connected
+networks; every medium we write in is a serial string. Engelbart: projecting the first into
+the second means *"the human memory and visualization has to hold and picture the links and
+relationships."* A markdown wiki is exactly that projection. Hubs, backlinks, graph view and
+[Typed Links](typed-links.md) are compensation, not a solution. → [N-Dimensional Projection Problem](n-dimensional-projection-problem.md)
+
+**The mechanism, agreed by all three.** Knowledge is stored once and connected many times,
+and the connections are the valuable artifact. Bush states it as engineering — *"The process
+of tying two items together is the important thing"* — and his objection to hierarchy is
+structural: filed in one place, an item forces you to *"emerge from the system and re-enter
+on a new path"* for every new thread. [Associative Indexing](associative-indexing.md) is what `wikilinks`
+implement.
+
+**Maintenance burden now has first-person evidence.** Engelbart ran an edge-notched card
+system for eight years — kernels of thought, one deck per problem, source and page on every
+card — and reports why it failed: he *"just didn't have the means to keep track of all of the
+kernel statements and the various relationships between them"* by means easy enough to leave
+capacity for the actual thinking. He also turns the diagnosis into a **threshold**: below
+some convenience level a system is not slow but *"unusable."* And his conclusion is the
+warrant for having a schema at all — even if the equipment *"appeared on the market
+tomorrow, a good deal of empirical research would be needed to develop a methodology."*
+→ [Maintenance Burden](maintenance-burden.md)
 
 **The division of labor, corroborated.** This is the strongest thing in the corpus,
 because two independent sources draw the same line. Bush: *"For mature thought there is
@@ -60,13 +86,12 @@ to be employed"*; the rest *"is a fit matter to be relegated to the machines."* 
 pattern doc says: human curates and directs, LLM does the bookkeeping. Same split, 81
 years apart. → [Repetitive vs Creative Thought](repetitive-vs-creative-thought.md)
 
-**The disagreement.** Bush's bottleneck is **selection** — *"The prime action of use is
-selection, and here we are halting indeed"* — with Mendel's genetics *"lost to the world
-for a generation"* as the paradigm failure. The pattern doc's bottleneck is
-**consistency** — wikis die because [Maintenance Burden](maintenance-burden.md) outruns their value. Both
-real, not the same problem, and the pattern doc doesn't notice the difference. A vault
-that only links pages doesn't help you find things; one that only searches doesn't
-accumulate. This one runs [qmd](qmd.md) over compiled pages for that reason.
+**The disagreement that remains.** Bush's bottleneck is **selection** — *"The prime action
+of use is selection, and here we are halting indeed"* — with Mendel's genetics *"lost to the
+world for a generation"* as the paradigm failure. The pattern doc's is **consistency**.
+Engelbart's is **structure**: whether the notation lets you think at all. Three different
+problems, one corpus, and no source addressing all three. A vault that only links pages
+doesn't help you find things; one that only searches doesn't accumulate.
 → [Growing Mountain of Research](growing-mountain-of-research.md)
 
 **Where the pattern doc is wrong — now adjudicated.** It claims Bush *"couldn't solve"*
@@ -84,16 +109,21 @@ complex devices of great reliability; and something is bound to come of it."* Su
 *maintenance* for *construction* and that is the pattern doc's entire thesis — but stated
 as a general law, with a testable implication nobody has run.
 
-**How firmly to hold this.** Better than a day ago, still loosely. The primary source is
-strong and the division of labor is now two-source. But there is still no empirical
-account of an LLM-maintained wiki, no reception history for Bush, no independent
-treatment of RAG, and no measurement of anything. The pattern doc's self-serving error is
-a warning about its whole class: confident, plausible, uncorroborated.
+**How firmly to hold this.** Better than a day ago. Three sources, two of them primary, one
+reporting lived experience rather than a proposal. But: no experiment is reported anywhere
+in the corpus; Engelbart's most vivid material (§III.B) is **fiction** by his own
+declaration, and its *"ten times as effective"* figure is invented illustration, not data;
+[Typed Links](typed-links.md) was adopted on qualitative evidence with no numbers attached; and the vault
+satisfies neither of Engelbart's two minimal measurement requirements — knowing *when*
+something improved, and being able to *compare* two competing changes. The pattern doc's
+self-serving error also stands as a warning about its whole class: confident, plausible,
+uncorroborated.
 
 ## How to navigate
 
 - **Index** — the full catalog, grouped by type, with a status board
-- **[Personal Knowledge Management](personal-knowledge-management.md)** — the topic hub; the best entry point
+- **[Augmenting Human Intellect](augmenting-human-intellect.md)** — the root hub; the best entry point
+- **[Personal Knowledge Management](personal-knowledge-management.md)** — the knowledge-base sub-hub
 - **[Glossary](glossary.md)** — terms used across the wiki
 - **Contradictions** — C-001 and C-002, both resolved; kept in full so the reasoning is auditable
 - **Open Questions** — what is missing, and which sources would fill it

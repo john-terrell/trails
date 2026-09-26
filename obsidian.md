@@ -95,12 +95,7 @@ This is the doc's image-localization trick.
 - [As We May Think](Sources.md) — not about Obsidian; cited here only for §6, the
   argument against hierarchical indexing that wikilinks and graph view implement
 
-## See also
+## Relations
 
-- [Associative Indexing](associative-indexing.md) — what wikilinks and graph view actually implement
-- [Obsidian Web Clipper](obsidian-web-clipper.md) — the ingest front door
-- [Dataview](dataview.md) — frontmatter queries
-- [Marp](marp.md) — slide output
-- [qmd](qmd.md) — search; complements Obsidian's own
-- [LLM Wiki Pattern](llm-wiki-pattern.md)
-- [Personal Knowledge Management](personal-knowledge-management.md)
+- **implements** [Associative Indexing](associative-indexing.md) — wikilinks, backlinks and graph view
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

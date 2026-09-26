@@ -61,9 +61,6 @@ entities with `sources: 1` (thin pages), and source pages by `kind`.
 
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — sole source; one line in "Tips and tricks"
 
-## See also
+## Relations
 
-- [Obsidian](obsidian.md) — plugin host
-- [Marp](marp.md) — the other optional plugin
-- Index — the hand-maintained catalog it could partly replace
-- AGENTS — §6.1 frontmatter spec
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

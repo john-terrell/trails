@@ -119,10 +119,7 @@ Scoped search: `qmd query "x" -c wiki` or `-c raw`.
   on this page comes from the installed tool's own docs and `qmd doctor` output
   (2026-09-26), not from the corpus. *(inference: flagged as outside-source detail)*
 
-## See also
+## Relations
 
-- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — what qmd is, and why pointing it at compiled
-  pages is different
-- [Obsidian](obsidian.md) — the other half of the toolchain
-- [LLM Wiki Pattern](llm-wiki-pattern.md)
-- AGENTS — §8 and §15 for how the agent uses it
+- **implements** [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — retrieval over compiled pages rather than raw chunks
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

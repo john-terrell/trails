@@ -7,7 +7,7 @@ updated: 2026-09-26
 status: stable
 tags: [concept/pkm, concept/history]
 confidence: high
-sources: 2
+sources: 3
 ---
 
 # Memex
@@ -152,6 +152,39 @@ Bush wanted to *find* things in a literature too large to read; the LLM wiki wan
 ground neither proposal does alone. This one runs [qmd](qmd.md) over compiled pages for
 exactly that reason.
 
+## Engelbart's repositioning (1962)
+
+[Douglas Engelbart](douglas-engelbart.md) read Bush closely, quoted the memex passage *"in its entirety"*, and
+then argued it was a special case of something broader
+([Augmenting Human Intellect](Sources.md) §III.A.2):
+
+> The associative trails whose establishment and use within the files he describes at some
+> length provide a beautiful example of a new capability in symbol structuring that derives
+> from new artifact-process capability.
+
+The critique is that trails are *"a primitive example"* of a general operation: defining a
+new substructure from an arbitrary collection of existing ones, then presenting it as a
+view (§III.B.5). A trail is one fixed path; the general capability is any projection on
+demand. → [N-Dimensional Projection Problem](n-dimensional-projection-problem.md)
+
+His sharper point is a **usability threshold**, and it is better argued than anything in
+[LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md):
+
+> The Memex allows a human user to do more conveniently (less energy, more quickly) what he
+> could have done with relatively ordinary photographic equipment and filing systems, but
+> he would have had to spend so much time in the lower-level processes of manipulation that
+> his mental time constants of memory and patience would have rendered the system unusable
+> in the detailed and intimate sense which Bush illustrates.
+
+Not slow — **unusable**. And above the threshold the change is qualitative: *"Making it
+easy to establish and follow the associative trails makes practical a new symbol-structuring
+process whose use can make a significant difference in the concept structuring and basic
+methods of work."* Convenience is a phase change, not an efficiency gain.
+
+Engelbart also confirms the C-002 ruling independently, reading trail gifting, *"wholly new
+forms of encyclopedia"*, [trail blazers](trail-blazer.md) and inheritance as *"changes in the
+ways in which people can cooperate intellectually."*
+
 ## Criticisms and limits
 
 - **Bush never considers a wrong trail.** No staleness, no error, no two trails that
@@ -175,16 +208,19 @@ exactly that reason.
 ## Sources
 
 - [As We May Think](Sources.md) — **primary**; §6–7 specify the device, §8 its
-  consequences. Sole basis for the specification above.
+  consequences. Basis for the specification above. **Text corrected 2026-09-26** against
+  the second witness below — eight readings, itemized in that file's frontmatter.
+- [Augmenting Human Intellect: A Conceptual Framework](Sources.md) — **primary**, second witness; §III.A.1
+  quotes the memex passage in full, §III.A.2 critiques and repositions it.
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — names the memex as the pattern's ancestor and
-  claims Bush *"couldn't solve"* maintenance; **contradicted** by the primary text.
+  claims Bush *"couldn't solve"* maintenance; **contradicted** by both primary texts.
 
-## See also
+## Relations
 
-- [Associative Indexing](associative-indexing.md) — the mechanism, in detail
-- [Trail Blazer](trail-blazer.md) — Bush's answer to maintenance
-- [Vannevar Bush](vannevar-bush.md) — the author
-- [Growing Mountain of Research](growing-mountain-of-research.md) — the problem
-- [LLM Wiki Pattern](llm-wiki-pattern.md) — the descendant
-- [Knowledge Compounding](knowledge-compounding.md) — what permanent, inheritable trails enable
-- [Personal Knowledge Management](personal-knowledge-management.md)
+- **instance-of** [Associative Indexing](associative-indexing.md) — the device that realizes the mechanism
+- **derives-from** [Vannevar Bush](vannevar-bush.md) — proposed in §6–7 of his 1945 essay
+- **supports** [Knowledge Compounding](knowledge-compounding.md) — trails are permanent, giftable and inheritable
+- **contrasts** [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — association over hierarchy; a compiled structure over retrieved fragments
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)
+- **part-of** [Augmenting Human Intellect](augmenting-human-intellect.md)
+- **critiques** [LLM Wiki Pattern](llm-wiki-pattern.md) — via Engelbart: trails are a primitive case, and the pattern doc misdescribes Bush

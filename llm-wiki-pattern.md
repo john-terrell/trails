@@ -7,7 +7,7 @@ updated: 2026-09-26
 status: growing
 tags: [concept/pkm, concept/llm-agents]
 confidence: high
-sources: 2
+sources: 3
 ---
 
 # LLM Wiki Pattern
@@ -174,15 +174,8 @@ chapter, business/team wikis fed by Slack threads and meeting transcripts, and
 - [As We May Think](Sources.md) — primary; corroborates the mechanism and the
   division of labor, contradicts the lineage claim
 
-## See also
+## Relations
 
-- [Memex](memex.md) — the 1945 ancestor, now read in primary
-- [Associative Indexing](associative-indexing.md) — the shared mechanism
-- [Trail Blazer](trail-blazer.md) — Bush's answer to maintenance, and C-001
-- [Repetitive vs Creative Thought](repetitive-vs-creative-thought.md) — the shared division of labor
-- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — the approach this is contrasted against
-- [Growing Mountain of Research](growing-mountain-of-research.md) — the bottleneck this pattern does *not* address
-- [Knowledge Compounding](knowledge-compounding.md) — the property that makes it worth doing
-- [Maintenance Burden](maintenance-burden.md) — the failure mode it removes
-- [Personal Knowledge Management](personal-knowledge-management.md) — the topic hub
-- AGENTS — this vault's instantiation of the schema layer
+- **derives-from** [Memex](memex.md) — the mechanism is Bush's; the purpose is not
+- **contrasts** [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — compile once vs retrieve per query
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

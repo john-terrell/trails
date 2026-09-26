@@ -7,7 +7,7 @@ updated: 2026-09-26
 status: growing
 tags: [concept/pkm, concept/information-retrieval, concept/history]
 confidence: high
-sources: 1
+sources: 2
 ---
 
 # Growing Mountain of Research
@@ -117,11 +117,8 @@ AGENTS.md) rather than for any particular search technology.
 
 - [As We May Think](Sources.md) — primary; §1 states it, §2 and §5 develop it
 
-## See also
+## Relations
 
-- [Memex](memex.md) — the proposed remedy
-- [Associative Indexing](associative-indexing.md) — the mechanism
-- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — the modern default answer to selection
-- [Maintenance Burden](maintenance-burden.md) — the *other* bottleneck, and the pattern doc's actual subject
-- [qmd](qmd.md) — how this vault handles selection
-- [Knowledge Compounding](knowledge-compounding.md) — what filing answers prevents losing
+- **explains** [Memex](memex.md) — the selection problem the device was designed for
+- **contrasts** [Maintenance Burden](maintenance-burden.md) — a different bottleneck; the two are not the same problem
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

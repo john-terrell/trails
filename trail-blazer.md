@@ -7,7 +7,7 @@ updated: 2026-09-26
 status: growing
 tags: [concept/pkm, concept/labor, concept/history]
 confidence: medium
-sources: 2
+sources: 3
 ---
 
 # Trail Blazer
@@ -120,11 +120,8 @@ left in chat.
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — claims Bush left this unsolved; **contradicted**
   by the primary text
 
-## See also
+## Relations
 
-- [Memex](memex.md) — the system trail blazers serve
-- [Associative Indexing](associative-indexing.md) — what they build
-- [Maintenance Burden](maintenance-burden.md) — the problem, and the three proposed solutions
-- Contradictions — C-001
-- [Knowledge Compounding](knowledge-compounding.md) — the inheritance mechanism
-- [Tolkien Gateway](tolkien-gateway.md) — the community-distribution alternative
+- **contrasts** [LLM Wiki Pattern](llm-wiki-pattern.md) — staff the work vs automate it
+- **contradicts** [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — C-001 — the profession Bush proposed
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

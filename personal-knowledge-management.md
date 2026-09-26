@@ -7,17 +7,24 @@ updated: 2026-09-26
 status: growing
 tags: [topic, pkm]
 confidence: medium
-sources: 2
+sources: 3
 ---
 
 # Personal Knowledge Management
 
 The domain this vault belongs to: how one person accumulates, organizes, and retrieves
-knowledge over long periods. The corpus holds two sources 81 years apart that agree on
-mechanism and disagree on purpose — and the disagreement is more useful than the
-agreement. Bush's problem was **selection** across a literature too large to read; the
-[LLM Wiki Pattern](llm-wiki-pattern.md)'s problem is **consistency** across a personal corpus. Both are
-real, and a system that solves only one leaves the other to rot.
+knowledge over long periods. **A sub-hub of [Augmenting Human Intellect](augmenting-human-intellect.md)** — PKM is the
+record-keeping and retrieval corner of a broader question about tools, language, method
+and training.
+
+The corpus holds three sources: two primary texts 17 years apart, and one anonymous
+secondary account that descends from both without knowing the second.
+[Vannevar Bush](vannevar-bush.md)'s bottleneck is **selection** across a literature too large to read;
+[Douglas Engelbart](douglas-engelbart.md) reframes the whole thing as a systems problem and supplies the first
+empirical account of a personal knowledge system failing; the
+[pattern doc](Sources.md)'s bottleneck is **consistency**. The most
+useful thing the third source did was correct the first one's history — see
+Contradictions.
 
 ## Core concepts
 
@@ -43,13 +50,15 @@ real, and a system that solves only one leaves the other to rot.
 
 ## Sources
 
-- [As We May Think](Sources.md) (1945-07) — **primary.** Vannevar Bush, *The Atlantic
-  Monthly*. Specifies the memex and associative indexing; identifies selection as the
-  bottleneck; proposes trail blazers. Touched 19 pages.
-- [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) (2026-09-26) — **secondary, anonymous.** The
-  founding document of this vault. Three layers, three operations, automation as the
-  answer to maintenance. Its Bush passage is contradicted by the primary text. Touched
-  20 pages.
+- [Augmenting Human Intellect: A Conceptual Framework](Sources.md) (1962-10, **primary**) — Engelbart, SRI
+  AFOSR-3223, 144 pages. The framework, the Bush critique, and a first-person account of
+  a note-card system defeated by its own bookkeeping. **§III.B is fiction.**
+- [As We May Think](Sources.md) (1945-07, **primary**) — Bush, *The Atlantic Monthly*.
+  Specifies the memex and associative indexing; identifies selection as the bottleneck;
+  proposes trail blazers. Text corrected 2026-09-26 against the Engelbart witness.
+- [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) (2026-09-26, **secondary, anonymous**) — the vault's
+  founding document. Three layers, three operations, automation as the answer to
+  maintenance. Its Bush passage is contradicted by both primary texts.
 
 ## Analyses
 
@@ -118,12 +127,11 @@ to: confident, plausible, uncorroborated.
 
 ## Tensions and open questions
 
-- **C-001 and C-002 were ruled on 2026-09-26**, both for the primary text. The *factual*
-  questions are closed. C-002's **normative** half is not: should this wiki publish its
-  trails? → Contradictions, Open Questions
-- **Should this wiki publish its trails?** Bush's system circulates them; this one is
-  private by decision. If trails are the valuable artifact, keeping them unshared may
-  forgo the main benefit. → Open Questions
+- **C-001 and C-002 were ruled on 2026-09-26**, both for the primary text, and C-002's
+  normative half has since been **acted on**: trails are now published to a public repo
+  (AGENTS §16). Engelbart independently corroborates the finding, reading Bush's trail
+  gifting and *"wholly new forms of encyclopedia"* as *"changes in the ways in which people
+  can cooperate intellectually."* → Contradictions
 - **Is the agent a trail blazer?** It builds trails, but under direction rather than
   from delight, for one reader rather than the common record. Whether that distinction
   changes how much judgment to delegate is unresolved. → [Trail Blazer](trail-blazer.md)
@@ -134,9 +142,10 @@ to: confident, plausible, uncorroborated.
   The pattern doc's contradiction register addresses a gap Bush left — and that gap is
   *wider* when an agent builds links at machine speed.
 
-## See also
+## Relations
 
-- [Overview](overview.md) — the vault front door
-- Index — the full catalog
-- Contradictions — C-001, C-002
-- Open Questions — gaps in this topic
+- **part-of** [Augmenting Human Intellect](augmenting-human-intellect.md)
+- **derives-from** [Augmenting Human Intellect: A Conceptual Framework](Sources.md)
+- **derives-from** [As We May Think](Sources.md)
+- **derives-from** [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md)
+- **specializes** [H-LAM/T](h-lam-t.md) — the L and A components applied to a personal record

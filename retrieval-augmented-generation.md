@@ -103,10 +103,7 @@ them: retrieval to find the entry point, then links to move. That is what runnin
 - [As We May Think](Sources.md) — primary; §5–6 establish the selection problem RAG
   addresses and the structural objection to hierarchical retrieval
 
-## See also
+## Relations
 
-- [LLM Wiki Pattern](llm-wiki-pattern.md) — the alternative
-- [Growing Mountain of Research](growing-mountain-of-research.md) — the problem both are answers to
-- [Associative Indexing](associative-indexing.md) — Bush's alternative to hierarchical retrieval
-- [Knowledge Compounding](knowledge-compounding.md) — what RAG is said to lack
-- [qmd](qmd.md) — retrieval over compiled pages
+- **contrasts** [LLM Wiki Pattern](llm-wiki-pattern.md) — the approach the pattern is defined against
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)

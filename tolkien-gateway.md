@@ -62,8 +62,8 @@ require ingesting something about it directly — which nothing currently justif
 
 - [LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md) — sole source; one sentence in the use-case list
 
-## See also
+## Relations
 
-- [LLM Wiki Pattern](llm-wiki-pattern.md) — the pattern it exemplifies at community scale
-- [Maintenance Burden](maintenance-burden.md) — the problem communities solve by distribution
-- [Knowledge Compounding](knowledge-compounding.md) — what thousands of interlinked pages represent
+- **supports** [Maintenance Burden](maintenance-burden.md) — evidence that distributing the labor works
+- **instance-of** [Maintenance Burden](maintenance-burden.md) — a third strategy: distribute rather than staff or automate
+- **part-of** [Personal Knowledge Management](personal-knowledge-management.md)
