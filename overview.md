@@ -29,9 +29,9 @@ being re-derived from raw fragments at every query. The founding document is
 
 ## Current state
 
-**Corpus:** 3 sources · **Wiki:** 9 entities · 18 concepts · 2 topics · 0 answers
+**Corpus:** 4 sources · **Wiki:** 10 entities · 23 concepts · 3 topics · 1 answer
 **Health:** 0 lint findings · **Search:** [qmd](qmd.md) indexed, 2 collections
-**Conflicts:** 0 open · **2 resolved** (both ruled for the primary text, 2026-09-26) → Contradictions
+**Conflicts:** **2 open** (C-003 belief revision, C-004 an independence claim) · 2 resolved → Contradictions
 
 The single-source warning is gone, and something better replaced it: the corpus now
 contains a primary text that **corrects** the document the whole system is built on.
@@ -42,10 +42,18 @@ do now.
 
 ## What the corpus is about
 
-Two nested topics: [Augmenting Human Intellect](augmenting-human-intellect.md) (root) and
-[Personal Knowledge Management](personal-knowledge-management.md) (sub-hub). Three sources — two primary texts 17 years
-apart, and one anonymous secondary account that descends from both without knowing the
-second.
+Three topics: [Augmenting Human Intellect](augmenting-human-intellect.md) (root), [Personal Knowledge Management](personal-knowledge-management.md)
+and [Agent Memory](agent-memory.md). Four sources — three primary and one anonymous secondary account that
+descends from two of them without knowing they existed.
+
+**The newest source is a mirror.** [Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects](Sources.md) describes a production
+agent-memory system that converges with this vault on its deepest principle — provenance
+must be structural, not incidental ([Epistemic Separation](epistemic-separation.md)) — and diverges sharply on the
+one question that matters most: whether belief revision should be automatic or
+human-adjudicated ([Opinion Reinforcement](opinion-reinforcement.md), C-003). It also does three things we don't:
+measures itself, reasons over time, and builds a typed causal graph automatically. The
+comparison is filed as the vault's first answer page,
+[How does this vault compare with Hindsight?](ans-2026-09-26-vault-vs-hindsight.md).
 
 **The reframe, from Engelbart.** The unit of analysis is not the person or the tool but
 [H-LAM/T](h-lam-t.md) — *Human using Language, Artifacts, Methodology, in which he is Trained*.
@@ -124,6 +132,8 @@ uncorroborated.
 - **Index** — the full catalog, grouped by type, with a status board
 - **[Augmenting Human Intellect](augmenting-human-intellect.md)** — the root hub; the best entry point
 - **[Personal Knowledge Management](personal-knowledge-management.md)** — the knowledge-base sub-hub
+- **[Agent Memory](agent-memory.md)** — persistent memory for agents; where Hindsight sits
+- **[How does this vault compare with Hindsight?](ans-2026-09-26-vault-vs-hindsight.md)** — the first filed answer
 - **[Glossary](glossary.md)** — terms used across the wiki
 - **Contradictions** — C-001 and C-002, both resolved; kept in full so the reasoning is auditable
 - **Open Questions** — what is missing, and which sources would fill it

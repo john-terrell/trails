@@ -92,6 +92,17 @@ gaps surface on contact with real pages, not in design.
   links, antecedent/consequent), §III.B.5, §III.B.8 (phase relations, the tradeoff).
   **§III.B is fiction** — the report's declaration, not a caveat added here.
 
+## A second vocabulary, machine-extracted
+
+[Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects](Sources.md) §4.1.4 uses four edge types — temporal, semantic, entity and
+**causal**, the last typed `{causes, caused_by, enables, prevents}` and *"upweighted during
+traversal to favor explanatory connections."* Two differences from ours are worth noting.
+Theirs is **extracted by an LLM at write time**; ours is assigned by judgment at ingest. And
+theirs has a causal type while ours has none — `explains` is the nearest, but it means
+"is the reason for", not "causes". Since most questions in this vault are *why* questions,
+the absence is a real gap. Adding `causes` / `enables` / `prevents` would be a small
+vocabulary extension and should go through Schema Proposals rather than be slipped in.
+
 ## Relations
 
 - **part-of** [Augmenting Human Intellect](augmenting-human-intellect.md)

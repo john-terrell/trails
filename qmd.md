@@ -119,6 +119,17 @@ Scoped search: `qmd query "x" -c wiki` or `-c raw`.
   on this page comes from the installed tool's own docs and `qmd doctor` output
   (2026-09-26), not from the corpus. *(inference: flagged as outside-source detail)*
 
+## Comparison: Hindsight's recall
+
+[Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects](Sources.md) §4.2 describes a retrieval layer that is a useful yardstick.
+Hindsight runs **four** channels — semantic, BM25, graph ([Spreading Activation Retrieval](spreading-activation-retrieval.md)),
+temporal — fused by RRF and cross-encoder reranked; qmd runs three of those four (no temporal
+channel) with the same RRF + rerank design. The interfaces differ more importantly: Hindsight
+takes a **token budget** `k` and returns facts with `Σ|fi| ≤ k`, while qmd takes `-n` results.
+For an agent, a budget is the better primitive — it makes "how much can I afford to read" a
+parameter rather than a discipline, which is what AGENTS §8's prose budget is trying to
+express. → [How does this vault compare with Hindsight?](ans-2026-09-26-vault-vs-hindsight.md)
+
 ## Relations
 
 - **implements** [Retrieval-Augmented Generation](retrieval-augmented-generation.md) — retrieval over compiled pages rather than raw chunks
