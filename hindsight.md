@@ -29,7 +29,7 @@ foil on the one question that matters most here: who resolves a conflict.
 | **Components** | TEMPR (retain/recall), CARA (reflect) |
 | **Storage** | PostgreSQL + pgvector, or Oracle AI Database 23ai; embedded `pg0` option |
 | **Clients** | Python, Node/TS, Go, CLI, REST, MCP server per bank |
-| **Integrations** | LLM wrapper (2 lines), 60+ incl. **Obsidian** and **`pi`** |
+| **Integrations** | LLM wrapper (2 lines), 60+ incl. Obsidian. **Pi: 4+ third-party extensions** — see below |
 | **Claims** | LongMemEval 91.4%, LoCoMo 89.61% — see caveats below |
 
 ## Architecture
@@ -76,9 +76,26 @@ that is *"rewritten in the background"* and read as *"a database read — no ret
 LLM call."* That is a topic hub and a synthesis page. **Caveat: this is from the README, not
 the paper — the vault has no primary source for the feature.**
 
-**4. It is installable here.** The coding-agents package lists **`pi`** explicitly and
-builds a per-repo bank from git history and past sessions, and there is an **Obsidian**
-integration. Any comparison is therefore practical, not hypothetical.
+**4. It is installable here — but through third-party code.** Corrected 2026-09-26 after
+checking npm and pi.dev. There are at least four Pi extensions: `pi-hindsight` (anh-chu,
+v1.4.2, ISC, ~450 LOC single file, raw `fetch`, .ini config, `#nomem`/`#global`/`#tags`
+per-prompt controls, **no credential sanitization**), `@walodayeet/hindsight-pi` (~1500 LOC,
+official SDK, JSON config, `tools`-only recall mode, retain batching, **does sanitize
+credentials**), `@luxusai/pi-hindsight`, `@abix5/pi-hindsight`. The official
+`@vectorize-io/hindsight-coding-agents` is described on npm as **"reflect-only"** — narrower
+than its README implies. Adoption is low (126 downloads/mo for `pi-hindsight`).
+
+Backend is heavier than "install a package": self-hosted Hindsight server **+ Postgres with
+pgvector** (or Supabase) **+ an embedding API** (Gemini `embedding-001` or compatible) **+
+HNSW indexes** for acceptable latency. Published figure: **~4 s** for a parallel
+global+project recall on Supabase free tier, injected at `before_agent_start`.
+
+**The load-bearing behaviour for this vault:** auto-retain captures the **full transcript
+including tool-call names and inputs** (minus `bash`/`read`/`write`/`edit`). Run inside the
+vault with retain enabled and every ingest conversation — source text, quotations, anything
+pasted — is written to a Postgres bank automatically. Mitigated by `.hindsight/config` with
+`retain_enabled = false` in the project root, which is enforced by the extension rather than
+by discipline. → [How does this vault compare with Hindsight?](ans-2026-09-26-vault-vs-hindsight.md)
 
 ## Caveats on the claims
 

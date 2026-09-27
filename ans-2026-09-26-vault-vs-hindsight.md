@@ -21,8 +21,8 @@ fragments, keep provenance structural — pointed at different consumers. Hindsi
 consumer is **an agent under a token budget**; this vault's is **a person who intends to
 disagree**. That single difference drives every divergence below. Hindsight is better at
 capture, retrieval and measurement; this vault is better at auditability, provenance depth
-and not being wrong quietly. They are complements, and Hindsight already ships a `pi`
-integration.
+and not being wrong quietly. They are complements, and Pi integration already exists — **at least four
+extensions**, not one (see the correction below).
 
 ## The answer
 

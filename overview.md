@@ -3,11 +3,11 @@ type: synthesis
 title: Overview
 aliases: [Home, Start here]
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-27
 status: growing
 tags: [synthesis]
 confidence: medium
-sources: 2
+sources: 5
 ---
 
 # Overview
@@ -29,9 +29,10 @@ being re-derived from raw fragments at every query. The founding document is
 
 ## Current state
 
-**Corpus:** 4 sources · **Wiki:** 10 entities · 23 concepts · 3 topics · 1 answer
+**Corpus:** 5 sources · **Wiki:** 16 entities · 27 concepts · 4 topics · 1 answer
 **Health:** 0 lint findings · **Search:** [qmd](qmd.md) indexed, 2 collections
 **Conflicts:** **2 open** (C-003 belief revision, C-004 an independence claim) · 2 resolved → Contradictions
+**Schema:** proposal **#006** pending — no page type for procedures → Schema Proposals
 
 The single-source warning is gone, and something better replaced it: the corpus now
 contains a primary text that **corrects** the document the whole system is built on.
@@ -42,9 +43,11 @@ do now.
 
 ## What the corpus is about
 
-Three topics: [Augmenting Human Intellect](augmenting-human-intellect.md) (root), [Personal Knowledge Management](personal-knowledge-management.md)
-and [Agent Memory](agent-memory.md). Four sources — three primary and one anonymous secondary account that
-descends from two of them without knowing they existed.
+Four topics and **two disjoint roots**: [Augmenting Human Intellect](augmenting-human-intellect.md) with its sub-hubs
+[Personal Knowledge Management](personal-knowledge-management.md) and [Agent Memory](agent-memory.md), and Hardware Provisioning, which
+shares no subject matter with any of them. Five sources — three primary, one anonymous
+secondary account that descends from two of them without knowing they existed, and one
+community runbook.
 
 **The newest source is a mirror.** [Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects](Sources.md) describes a production
 agent-memory system that converges with this vault on its deepest principle — provenance
@@ -117,9 +120,24 @@ complex devices of great reliability; and something is bound to come of it."* Su
 *maintenance* for *construction* and that is the pattern doc's entire thesis — but stated
 as a general law, with a testable implication nobody has run.
 
-**How firmly to hold this.** Better than a day ago. Three sources, two of them primary, one
-reporting lived experience rather than a proposal. But: no experiment is reported anywhere
-in the corpus; Engelbart's most vivid material (§III.B) is **fiction** by his own
+**The corpus now has an unrelated domain in it.** [Turing RK1 → NVMe Boot (via eMMC staging) — Guide](Sources.md)
+is a runbook for booting Ubuntu from NVMe on a Rockchip RK3588 cluster node. Searches for
+`turing pi`, `nvme`, `u-boot` and `bootloader` returned zero hits before it landed; it
+contradicts nothing, confirms nothing, and touches no existing page. It is here because the
+owner wanted it filed, and it earns its place in one narrow way: it is the corpus's first
+**procedural** source, whose value is a command sequence rather than an argument — and the
+schema turned out to have no page type for that (proposal #006). It also carries a lesson the
+older sources support: Zero-Touch Provisioning buys remoteness at the cost of a staging
+round-trip that thirty seconds of physical access would eliminate, which is
+[Bush's delegation criterion](repetitive-vs-creative-thought.md) applied to toil rather than
+thought. Everything in Hardware Provisioning rests on one undated, single-witness
+document, and it is the vault's first domain whose pages go wrong on a schedule as upstream
+versions move.
+
+**How firmly to hold this.** Better than a day ago, and worse in a new way. Five sources:
+three primary, one of which reports lived experience rather than a proposal; one anonymous
+secondary account already adjudicated wrong on two claims; and one procedural runbook
+verified by nobody but its author. But: no experiment is reported anywhere in the corpus; Engelbart's most vivid material (§III.B) is **fiction** by his own
 declaration, and its *"ten times as effective"* figure is invented illustration, not data;
 [Typed Links](typed-links.md) was adopted on qualitative evidence with no numbers attached; and the vault
 satisfies neither of Engelbart's two minimal measurement requirements — knowing *when*
@@ -133,6 +151,7 @@ uncorroborated.
 - **[Augmenting Human Intellect](augmenting-human-intellect.md)** — the root hub; the best entry point
 - **[Personal Knowledge Management](personal-knowledge-management.md)** — the knowledge-base sub-hub
 - **[Agent Memory](agent-memory.md)** — persistent memory for agents; where Hindsight sits
+- **Hardware Provisioning** — the second root: boot chains and remote provisioning; unrelated to the rest
 - **[How does this vault compare with Hindsight?](ans-2026-09-26-vault-vs-hindsight.md)** — the first filed answer
 - **[Glossary](glossary.md)** — terms used across the wiki
 - **Contradictions** — C-001 and C-002, both resolved; kept in full so the reasoning is auditable
