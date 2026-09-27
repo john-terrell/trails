@@ -4,7 +4,7 @@ title: Opinion Reinforcement
 aliases: [opinion reinforcement, belief revision, automatic belief update, confidence update rule]
 created: 2026-09-26
 updated: 2026-09-26
-status: contested
+status: growing
 tags: [concept/agent-memory, concept/epistemology]
 confidence: medium
 sources: 1
@@ -67,9 +67,13 @@ The design is defensible on its own terms, and worth taking seriously:
 
 ## Why this vault rejects it
 
-> [!warning] C-003 — open. See Contradictions
-> This is an architectural conflict, not a factual one. Both positions are coherent; they
-> optimize different things. Recorded per AGENTS §5, not resolved here.
+> [!note] C-003 — `resolved-scoped` 2026-09-27 (owner delegated the ruling to the agent)
+> Both positions stand, in different domains. **Automatic revision is acceptable** for the
+> owner's own biographical and preference facts, where recency genuinely *is* authority.
+> **Human adjudication is required** for sourced claims about the world, where sources differ
+> in epistemic authority — C-001 proved recency-wins fails there. The test: *does the claim
+> have a citable source whose authority can be weighed?* Everything below concerns that
+> second domain, which is all this vault holds. Full entry: Contradictions.
 
 **The corpus contains a worked counterexample to recency-wins.** C-001 was a *newer*
 secondary source ([LLM Wiki — A pattern for building personal knowledge bases using LLMs](Sources.md), 2026) misdescribing an *older*
